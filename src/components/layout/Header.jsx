@@ -10,7 +10,7 @@ const Header = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <>
-      <section className="flex justify-between gap-4 px-4  max-w-[1216px]  mx-auto h-[68px] xl:h-auto xl:py-3 xl:px-0 ">
+      <section className="flex justify-between gap-4 px-4  max-w-[1216px] md:px-8  mx-auto h-[68px] xl:h-auto xl:py-3 xl:px-0 ">
         <nav className="flex flex-1 items-center xl:gap-[103px]">
           <div className="flex items-center gap-1 ">
             <img src={CompanyLogo} alt="logo" className="w-8 h-8" />
