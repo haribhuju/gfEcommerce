@@ -4,7 +4,7 @@ import Header from "./Header";
 const BaseLayout = () => {
   return (
     <>
-      <div className="pt-4 bg-gradient-to-b from-gray-100 to-gray-400 h-screen ">
+      <div className="pt-4 h-screen ">
         <Header />
       </div>
     </>
