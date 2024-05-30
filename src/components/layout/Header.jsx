@@ -14,15 +14,19 @@ const Header = () => {
         <nav className="flex flex-1 items-center xl:gap-[103px]">
           <div className="flex items-center gap-1 ">
             <img src={CompanyLogo} alt="logo" className="w-8 h-8" />
-            <p className="text-neutral-900 text-base font-normal leading-6 tracking-tighter">
+            <p className="text-neutral-900 text-base font-bold leading-6 tracking-tighter">
               StyleNest
             </p>
           </div>
           <div className="flex-1 flex justify-end xl:justify-between xl:items-center">
             <div className="hidden xl:block">
               <ul className="flex gap-8">
-                <li>Shop all</li>
-                <li>Latest arrivals</li>
+                <li className="text-sm font-medium text-neutral-600 leading-6">
+                  Shop all
+                </li>
+                <li className="text-sm font-normal text-neutral-900 leading-6">
+                  Latest arrivals
+                </li>
               </ul>
             </div>
 
@@ -49,7 +53,7 @@ const Header = () => {
             <div className="flex justify-between items-cente">
               <div className="flex items-center gap-1 ">
                 <img src={CompanyLogo} alt="logo" className="w-8 h-8" />
-                <p className="text-neutral-900 text-base font-normal leading-6 tracking-tighter">
+                <p className="text-neutral-900 text-base font-bold leading-6 tracking-tighter">
                   StyleNest
                 </p>
               </div>
@@ -64,8 +68,12 @@ const Header = () => {
               </button>
             </div>
             <ul className="flex flex-col gap-2 flex-1 ">
-              <li className="px-3 py-2">Shop all</li>
-              <li className="px-3 py-2">Latest arrivals</li>
+              <li className="px-3 py-2 text-sm font-normal text-neutral-900 leading-6">
+                Shop all
+              </li>
+              <li className="px-3 py-2 text-sm font-normal text-neutral-900 leading-6">
+                Latest arrivals
+              </li>
             </ul>
           </nav>
         </div>
