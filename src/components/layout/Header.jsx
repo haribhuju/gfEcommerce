@@ -1,4 +1,10 @@
 import React, { useState } from "react";
+import {
+  MenuIcon,
+  CloseIcon,
+  CompanyLogo,
+  ShoppingBagIcon,
+} from "../common/Icons";
 
 const Header = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -7,7 +13,7 @@ const Header = () => {
       <section className="flex justify-between gap-4 px-4  max-w-[1216px]  mx-auto h-[68px] xl:h-auto xl:py-3 xl:px-0 ">
         <nav className="flex flex-1 items-center xl:gap-[103px]">
           <div className="flex items-center gap-1 ">
-            <img src="/src/assets/Content.svg" alt="logo" className="w-8 h-8" />
+            <img src={CompanyLogo} alt="logo" className="w-8 h-8" />
             <p className="text-neutral-900 text-base font-normal leading-6 tracking-tighter">
               StyleNest
             </p>
@@ -22,7 +28,7 @@ const Header = () => {
 
             <div>
               <img
-                src="/src/assets/shopping-bag-3-line.svg"
+                src={ShoppingBagIcon}
                 alt="shoping bag"
                 className="w-6 h-6 cursor-pointer"
               />
@@ -34,7 +40,7 @@ const Header = () => {
           className="xl:hidden"
           onClick={() => setIsModalOpen(!isModalOpen)}
         >
-          <img src="/src/assets/menu-fill.svg" alt="menu" className="w-5 h-5" />
+          <img src={MenuIcon} alt="menu" className="w-5 h-5" />
         </button>
       </section>
       {isModalOpen && (
@@ -42,11 +48,7 @@ const Header = () => {
           <nav className="px-4 py-8 flex flex-col gap-6  h-full">
             <div className="flex justify-between items-cente">
               <div className="flex items-center gap-1 ">
-                <img
-                  src="/src/assets/Content.svg"
-                  alt="logo"
-                  className="w-8 h-8"
-                />
+                <img src={CompanyLogo} alt="logo" className="w-8 h-8" />
                 <p className="text-neutral-900 text-base font-normal leading-6 tracking-tighter">
                   StyleNest
                 </p>
@@ -54,7 +56,7 @@ const Header = () => {
 
               <button>
                 <img
-                  src="/src/assets/close-line.svg"
+                  src={CloseIcon}
                   alt="shoping bag"
                   className="w-6 h-6 cursor-pointer"
                   onClick={() => setIsModalOpen(!isModalOpen)}
