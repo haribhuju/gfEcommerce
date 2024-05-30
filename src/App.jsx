@@ -1,7 +1,9 @@
+import BaseLayout from "./components/layout/BaseLayout";
+
 function App() {
   return (
     <>
-      <div>Hello</div>
+      <BaseLayout />
     </>
   );
 }
