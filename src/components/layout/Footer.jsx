@@ -13,17 +13,17 @@ const Footer = () => {
   return (
     <>
       {/* content */}
-      <div className="bg-white  rounded-[4px] rounded-t-none  m-4 mt-0 md:py-28 lg:py-16 border border-red-500">
+      <div className="bg-white  rounded-[4px] rounded-t-none  m-4 mt-0 md:py-28 xl:py-16 border border-red-500">
         {/* footer */}
-        <div className=" flex flex-col gap-12  py-12 md:py-16 md:gap-16 lg:py-24 ">
+        <div className=" flex flex-col gap-12  py-12 md:py-16 md:gap-16 xl:py-24 ">
           {/* section ONE */}
           <Newsletter />
           {/* section TWO */}
-          <div className="flex flex-col gap-12 px-4 md:gap-16 lg:px-8">
+          <div className="flex flex-col gap-12 px-4 md:gap-16 xl:px-8">
             {/* container one */}
-            <div className="lg:mx-8">
+            <div className="xl:mx-8">
               {/* content one */}
-              <div className="flex flex-col gap-8 md:gap-12 lg:flex-row lg:gap-16">
+              <div className="flex flex-col gap-8 md:gap-12 xl:flex-row xl:gap-16">
                 <div className="flex flex-col gap-6 md:min-w-80 md:max-w-80 md:gap-8">
                   <div className="flex items-center gap-1 ">
                     <img src={CompanyLogo} alt="logo" className="w-8 h-8" />
@@ -36,8 +36,8 @@ const Footer = () => {
                     thread.
                   </p>
                 </div>
-                <div className="flex flex-col gap-8 md:flex-row md:min-w-[640px] lg:min-w-[800px] lg:justify-end ">
-                  <div className="flex flex-col gap-4 flex-1 lg:flex-grow-0 lg:flex-[280px] ">
+                <div className="flex flex-col gap-8 md:flex-row md:min-w-[640px] xl:min-w-[800px] xl:justify-end ">
+                  <div className="flex flex-col gap-4 flex-1 xl:flex-grow-0 xl:flex-[280px] ">
                     <h3 className="text-sm text-neutral-500 leading-5">
                       SHOP CATEGORIES
                     </h3>
@@ -53,7 +53,7 @@ const Footer = () => {
                       </li>
                     </ul>
                   </div>
-                  <div className="flex flex-col gap-4 flex-1 lg:flex-grow-0 lg:flex-[280px] ">
+                  <div className="flex flex-col gap-4 flex-1 xl:flex-grow-0 xl:flex-[280px] ">
                     <h3 className="text-sm text-neutral-500 leading-5">
                       SHOP COLLECTIONS
                     </h3>
@@ -76,13 +76,13 @@ const Footer = () => {
               </div>
             </div>
             {/* container two */}
-            <div className="border-t border-neutral-200 lg:mx-8">
+            <div className="border-t border-neutral-200 xl:mx-8">
               {/* content two */}
               <div className="flex flex-col gap-8 pt-8 md:flex-row">
                 <p className="text-neutral-500 leading-6">
                   © 2024 StyleNest, Inc. All rights reserved.
                 </p>
-                <div className="flex gap-6 lg:ml-auto">
+                <div className="flex gap-6 xl:ml-auto">
                   <img src={YoutubeIcon} alt="Youtube Icon Logo" />
                   <img src={InstagramIcon} alt="Instagram Icon Logo" />
                   <img src={FacbookIcon} alt="Facbook Icon Logo" />
