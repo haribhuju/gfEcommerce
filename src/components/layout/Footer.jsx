@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
       {/* content */}
-      <div className="bg-white  rounded-[4px] rounded-t-none  m-4 mt-0 md:py-28 xl:py-16 border border-red-500">
+      <div className="bg-white  rounded-[4px] rounded-t-none  m-4 mt-0 md:py-28 xl:py-16 ">
         {/* footer */}
         <div className=" flex flex-col gap-12  py-12 md:py-16 md:gap-16 xl:py-24 ">
           {/* section ONE */}
